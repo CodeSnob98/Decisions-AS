@@ -1,0 +1,22 @@
+#written in python
+def EvenOddSum(a, n): 
+    even = 0
+    odd = 0
+    for i in range(n): 
+        if i % 2 == 0: 
+            even += a[i] 
+        else: 
+            odd += a[i] 
+      
+    print (even-odd)
+
+
+lst = [] 
+n = int(input()) #take the size of the array
+for i in range(0, n): 
+    ele = int(input()) #insert elemets
+  
+    lst.append(ele) 
+n = len(lst) 
+  
+EvenOddSum(lst, n)

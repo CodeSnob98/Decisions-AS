@@ -1,0 +1,6 @@
+#written in python
+import math 
+def findRatsCount(n): 
+    return math.ceil(math.log2(n));   
+n=int(input())
+print(findRatsCount(n))
